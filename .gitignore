@@ -1,0 +1,3 @@
+frontend/openai-app/node_modules
+server/node_modules
+server/.env
