@@ -7,7 +7,7 @@
     "frontend": "cd frontend && npm start",
     "api": "cd api && nodemon app.js",
     "dev": "concurrently --kill-others-on-fail \"npm run api\" \"npm run frontend\"",
-    "heroku-postbuild": "cd server && npm install && npm run start && cd frontend && npm install && npm run build"
+    "heroku-postbuild": "cd server && npm install && npm run start && cd ../frontend && npm install && npm run build"
   },
   "author": "",
   "license": "ISC"
